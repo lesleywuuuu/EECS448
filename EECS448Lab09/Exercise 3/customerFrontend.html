@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EECS 448 Lab9 Exercise3</title>
+  </head>
+
+  <h1 style="text-align: center;">Exercise 3: Web Store</h1><br>
+  <form action="customerBackend.php" method="post">
+
+    <h3>Costomer Login</h3>
+    <div class='login'>
+      Username: <input type="email" name="Username" id="username" required>
+      Password: <input type="password" name="Password" id="password" required>
+    </div><br>
+    
+    <h3>Goods List</h3>
+    <div class='container'>
+          Egg: $1.00/ea      Quantities: <input type="number" min="0" name="eggNum" id="eggnum" required><br>
+      <br>Juice: $2.00/lbs   Quantities: <input type="number" min="0" name="juiceNum" id="juicelbs" required><br>
+      <br>Beef: $5.00/lbs    Quantities: <input type="number" min="0" name="beefNum" id="beeflbs" required><br>
+    </div><br>
+
+    <h3>Select Shipping</h3>
+    <div class='container'>
+      <input type="radio" id="freeShip" name="shipping" value="Free 7 Day" required> Free 7 Day</input><br>
+      <br><input type="radio" id="overnightShip" name="shipping" value="Overnight" required> $50.00 over night</input><br>
+      <br><input type="radio" id="3dayShip" name="shipping" value="3 Day" required> $5.00 three day</input><br>
+    </div><br>
+
+    <div style="text-align: center;">
+      <input type="submit" id="checkout" value="Checkout"></input>
+      <button type="reset">Reset</button>
+    </div>
+    <script src = "formChecker.js"></script>
+  </form>
+
+</html>

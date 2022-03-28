@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    position: relative;
+    display: block;
+    background-color:rgb(187, 184, 189);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+h1
+{
+    background-color: white;
+}
+
+/* form
+{
+    width: 520px;
+    height: 600px;
+    margin: 10px auto;
+    background-color:white;
+
+} */
+
+h3
+{
+    width: 520px;
+    height: 30px;
+    margin: 10px auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(138, 135, 132);
+}
+
+.login
+{
+    width: 500px;
+    height: 20px;
+    text-align: center;
+    margin: 10px auto;
+    font-family:'Times New Roman', Times, serif;
+    border: 5px black;
+    background-color: rgb(187, 184, 189);
+}
+
+.container
+{
+    width: 500px;
+    height: 80px;
+    margin: 10px auto;
+    font-family:'Times New Roman', Times, serif;
+    border: 5px black;
+    background-color: rgb(187, 184, 189);
+}
+
+
+table,td
+{
+    border: 2px solid black;
+}
+
+td
+{
+    background-color: rgb(187, 184, 189);
+}

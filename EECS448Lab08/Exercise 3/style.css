@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    position: relative;
+    display: block;
+    background-image: url("酒厂.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+h1
+{
+    font: 1em sans-serif;
+    background-color: whitesmoke
+}
+
+h2
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28; 
+    text-align: center; 
+    color: rgb(241, 117, 117);
+    background-color: rgb(44, 39, 39)
+}
+
+h4
+{
+    width: 620px;
+    margin: 10px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28; 
+    text-align: center; 
+    color: rgb(218, 212, 212);
+}
+
+h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold; 
+    text-align: center; 
+    color: rgb(218, 212, 212);
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32; 
+    text-align: center;
+    color: #808080; 
+}
+
+a
+{
+    background-color: rgb(138, 125, 125)
+}
+
+a:hover 
+{
+    background-color: yellow;
+}
+
+
+.showself
+{
+    overflow: hidden;
+    position: center;
+    width: 640px;
+    height: 520px;
+    margin: 30px auto; 
+    box-shadow: 5px 5px 5px #808080,-2px -2px 2px #D5D5D5;
+    background-color: rgb(62, 67, 85);
+    display: block;
+}
